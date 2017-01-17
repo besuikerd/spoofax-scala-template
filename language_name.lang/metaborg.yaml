@@ -1,9 +1,10 @@
 ---
-id: org.example:language_name:0.1.0-SNAPSHOT
+id: org.example:language_name.lang:0.1.0-SNAPSHOT
 name: language_name
 dependencies:
   compile:
   - org.metaborg:org.metaborg.meta.lang.esv:${metaborgVersion}
+  - org.metaborg:org.metaborg.meta.lang.template:${metaborgVersion}
   source:
   - org.metaborg:meta.lib.spoofax:${metaborgVersion}
   - org.metaborg:org.metaborg.meta.lib.analysis:${metaborgVersion}

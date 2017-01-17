@@ -6,7 +6,7 @@
 >
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.example</groupId>
-  <artifactId>language_name</artifactId>
+  <artifactId>language_name.lang</artifactId>
   <version>0.1.0-SNAPSHOT</version>
   <packaging>spoofax-language</packaging>
 
@@ -15,7 +15,15 @@
     <artifactId>parent.language</artifactId>
     <version>2.1.0-SNAPSHOT</version>
   </parent>
-  
+
+  <dependencies>
+    <dependency>
+        <groupId>org.example</groupId>
+        <artifactId>language_name.scala</artifactId>
+  	    <version>0.1.0-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+
   <repositories>
     <repository>
       <id>metaborg-release-repo</id>
@@ -38,7 +46,7 @@
       </snapshots>
     </repository>
   </repositories>
-  
+
   <pluginRepositories>
     <pluginRepository>
       <id>metaborg-release-repo</id>

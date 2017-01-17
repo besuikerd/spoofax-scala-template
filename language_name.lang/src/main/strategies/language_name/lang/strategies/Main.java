@@ -1,9 +1,9 @@
-package language_name.strategies;
+package language_name.lang.strategies;
 
 import org.strategoxt.lang.Context;
 
-public class Main {    
+public class Main {
     public static void init(Context context) {
-        
+
     }
 }

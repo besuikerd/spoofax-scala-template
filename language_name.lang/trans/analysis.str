@@ -1,0 +1,6 @@
+module analysis
+
+rules
+  external editor-analyze(|)
+  external editor-hover(|)
+  external editor-resolve(|)

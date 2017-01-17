@@ -1,0 +1,11 @@
+module language_name
+
+imports
+  Common
+
+
+context-free start-symbols
+  Start
+
+context-free syntax
+  Start.Start = "hello world"
