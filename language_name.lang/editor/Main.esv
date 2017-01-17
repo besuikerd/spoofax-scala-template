@@ -1,0 +1,8 @@
+module Main
+
+language
+
+  extensions : lan
+
+  provider : target/metaborg/stratego.ctree
+  provider : target/metaborg/stratego-javastrat.jar

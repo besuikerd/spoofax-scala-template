@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/language_name.eclipse.feature_0.1.0.qualifier.jar" id="language_name.eclipse.feature" version="0.1.0.qualifier">
+      <category name="language_name"/>
+   </feature>
+   <category-def name="language_name" label="language_name language Eclipse plugin">
+      <description>
+         language_name language Eclipse plugin.
+      </description>
+   </category-def>
+</site>

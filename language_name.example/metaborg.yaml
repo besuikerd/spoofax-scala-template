@@ -1,0 +1,8 @@
+---
+id: org.example:language_name.example:0.1.0-SNAPSHOT
+name: language_name
+dependencies:
+  compile:
+  - org.example:language_name:0.1.0-SNAPSHOT
+build:
+  useBuildSystemSpec: true
