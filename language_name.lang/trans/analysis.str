@@ -4,3 +4,9 @@ rules
   external editor-analyze(|)
   external editor-hover(|)
   external editor-resolve(|)
+
+  debug-show-analyzed:
+    input @ (node, _, _, path, project-path) -> (filename, result)
+  	with
+  	 filename := <guarantee-extension(|"aterm.analyzed")> path
+  	 ; (result, _, _, _) := <editor-analyze> input
